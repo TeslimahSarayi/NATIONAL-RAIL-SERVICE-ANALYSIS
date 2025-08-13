@@ -48,11 +48,11 @@ This dashboard provides a high-level overview of all rail service performance ac
 When a station is selected, as shown below for Manchester Picadilly, the dashboard dynamically filters to display performance metrics, disruption causes, and ticket distribution specific to that station.
 
 ![Dashboard](Dashboard.png)  
-View the interactive dasboard:[National Rail Analysis Dashboard](https://app.powerbi.com/view?r=eyJrIjoiM2I3NjQ5MjMtNTk5YS00M2NlLWFlMzAtNTBmNmNmZTY3YzNiIiwidCI6Ijk5MzljMjE0LWQ4OGItNDNiYy1iMDhlLTE4ZjQ2N2Y2NWIzNyJ9)
+View the interactive dasboard: [National Rail Analysis Dashboard](https://app.powerbi.com/view?r=eyJrIjoiM2I3NjQ5MjMtNTk5YS00M2NlLWFlMzAtNTBmNmNmZTY3YzNiIiwidCI6Ijk5MzljMjE0LWQ4OGItNDNiYy1iMDhlLTE4ZjQ2N2Y2NWIzNyJ9)
 ## Requirements  
 To execute the SQL scripts, you need:  
 * A SQL-compatible database (e.g PostgreSQL, MySQL, or SQL Server)  
-* Access to the rail service dataset
+* Access to the rail service dataset (file is attached)
  
 For the Power BI Dashboard:  
 * Power BI Desktop or Power BI service  
