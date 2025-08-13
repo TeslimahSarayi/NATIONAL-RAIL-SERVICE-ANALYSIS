@@ -41,8 +41,42 @@ This dashboard provides a high-level overview of all rail service performance ac
 * Compare refund and punctuality rates by station
 * Track monthly revenue alongside potential loss from refunds 
 * Review core KPIs (tickets sold, average ticket price, total revenue, total refund value)
-* Analyse ticket sales distribution by purchase channel and class 
-![Dashboard](images.dashboard..png)
+* Analyse ticket sales distribution by purchase channel and class
+   
+![Dashboard](dashboard.png)
 
+When a station is selected, as shown below for Manchester Picadilly, the dashboard dynamically filters to display performance metrics, disruption causes, and ticket distribution specific to that station.
 
+![Dashboard](Dashboard.png)
 
+## SUMMARY OF INSIGHTS 
+Detailed insights can be explored in the SQL scripts provided. Some of the key highlights are: 
+
+#### Operational performance
+* The leading causes of journey disruptions were weather conditions and staffing shortages
+* The Overall punctuality rate was 93%
+* Peak delays occurred during weekday rush hours, and were most frequent in March. 
+
+#### Customer Impact 
+* Spikes in refund volume closely coincided with major traffic disruptions
+* 72% of refund requests were linked to weekday tickets
+* Cancelled journeys generated 26 more refund requests then delays 
+
+#### Route Reliability 
+* The least reliable routes, experiencing 100% disruptions, were:  
+    1. Edinburgh Waverley⇒London Kings Cross  
+    2. York⇒Wakefield  
+    3. London Euston⇒York
+* The departure stations London St. Pancras, Bristol Temple Meads and Reading all recorded 100% punctuality rates; however, Reading and London St. Pancras still received refund requests due to cancellations originating from those stations
+## RECOMMENDATIONS  
+
+The following actions are recommended to improve operational efficiency, customer satisfaction and revenue retention:  
+1. **Leverage data for customer retention**:  Use refund behavior patterns to design targeted loyalty or compensation schemes for frequent commuters 
+Targeted Communication: Notify weekday commuters in advance about service improvements or alternative routes during disruption-heavy periods.
+For customers affected by repeated disruptions, offer automated credit towards future journeys rather than cash refund, keeping them engaged in the service. 
+2. **Target route reliability improvements** : Develop action plans for the least reliable routes, through infrastructure checks, schedule adjustments, or alternative routing 
+3. **Address disruption drivers**: Implement targeted measures to reduce weather and staffing related disruptions, including contingency crew availability, seasonal schedule adjustments , and proactive maintenance planning 
+4. **Enhance refund management in high punctuality stations**: Focus on reducing cancellations that generate refund requests despite strong on-time performance by introducing contingency planning,  reallocating resources, and strengthening operational resilience at departure stations. 
+
+## CONCLUSION  
+This analysis highlights that while overall punctuality is strong at 93%, underlying operational weaknesses, particularly concentrated in certain routes, time periods, and causes of disruption, continue to impact both revenue and customer trust. Addressing these vulnerabilities will help strengthen railway operations, reduce delays, and deliver a smoother , more reliable travel experience for passengers across the UK. 
