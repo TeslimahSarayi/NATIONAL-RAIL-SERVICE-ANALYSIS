@@ -42,7 +42,7 @@ This dashboard provides a high-level overview of all rail service performance ac
 * Track monthly revenue alongside potential loss from refunds 
 * Review core KPIs (tickets sold, average ticket price, total revenue, total refund value)
 * Analyse ticket sales distribution by purchase channel and class 
-
+![Dashboard](images.dashboard..png)
 
 
 
