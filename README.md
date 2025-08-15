@@ -1,6 +1,8 @@
 # NATIONAL-RAIL-SERVICE-ANALYSIS
-This repository contains a set of structured SQL scripts and a Power BI dashboard developed to analyse the operational performance of the National Rail service from January to April,2024. The analysis focuses on key service metrics such as delays, cancellations, refunds, and other performance indicators. 
 
+*This is a personal portfolio project for educational and demonstration purposes only. This project is not affiliated to, or endorsed by the National Rail or any UK rail operator*  
+
+This repository contains a set of structured SQL scripts and a Power BI dashboard developed to analyse the operational performance of the National Rail service from January to April,2024. The analysis focuses on key service metrics such as delays, cancellations, refunds, and other performance indicators. 
 ## OVERVIEW
 
 
@@ -89,3 +91,5 @@ The following actions are recommended to improve operational efficiency, custome
 
 ## CONCLUSION  
 This analysis highlights that while overall punctuality is strong at 93%, underlying operational weaknesses, particularly concentrated in certain routes, time periods, and causes of disruption, continue to impact both revenue and customer trust. Addressing these vulnerabilities will help strengthen railway operations, reduce delays, and deliver a smoother , more reliable travel experience for passengers across the UK. 
+
+Click [here](https://github.com/TeslimahSarayi/ROUTE-RISK-PROFILING) to view the machine learning project developed to segment the travel routes by operational risk
